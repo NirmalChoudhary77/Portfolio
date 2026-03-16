@@ -9,7 +9,6 @@ import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import setSplitText from "./utils/splitText";
-import { initialFX } from "./utils/initialFX";
 
 const TechStack = lazy(() => import("./TechStack"));
 
@@ -17,10 +16,6 @@ const MainContainer = ({ children }: PropsWithChildren) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(
     window.innerWidth > 1024
   );
-
-  useEffect(() => {
-    initialFX();
-  }, []);
 
   useEffect(() => {
     const resizeHandler = () => {
