@@ -35,14 +35,7 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-            <a
-              href="https://x.com/Nirmal_77"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
+
             <a
               href="https://www.instagram.com/nirmal_choudhary___/"
               target="_blank"
